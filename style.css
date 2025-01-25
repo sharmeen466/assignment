@@ -1,0 +1,116 @@
+* {
+    color: #1C1E53;
+    font-family: robotto;
+}
+
+/* navbar */
+.purple-btn {
+    border: 2px solid #5E3BEE;
+}
+
+.purple-btn:hover {
+    border: 2px solid #5E3BEE;
+}
+
+
+/* hero section */
+.h-purple {
+    color: #5E3BEE;
+}
+
+.hero-btn:hover {
+    background-color: #5E3BEE;
+    color: white;
+}
+
+.hero-btn {
+    background-color: #5E3BEE;
+    color: white;
+}
+
+.color {
+    background-color: #F5FCFF;
+}
+
+.experties {
+    height: 80px;
+    width: 80px;
+
+}
+
+.experties img {
+    height: 50px;
+    width: 50px;
+}
+
+.brdr-purple {
+    border-bottom: 4px solid #5E3BEE !important;
+}
+
+.remove-brdr {
+    border: none;
+}
+
+.dribble {
+    width: 150px;
+    border-bottom: 2px solid #5E3BEE;
+}
+
+.dribble img {
+    height: 30px;
+    width: 30px;
+}
+
+.star {
+    height: 150px;
+    width: 150px;
+}
+
+.clients {
+    height: 100px;
+    width: 100px;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+}
+
+.footer {
+    border-bottom: 1px solid black;
+    height: 200px;
+    align-items: center;
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+    .foot-links li a{
+        padding: 0px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .foot-links li a{
+        padding: 0px !important;
+    }  
+    .footer {
+        padding: 10px !important;
+    }  
+    .foot-icons img {
+        margin-right: 80px;
+        margin-left: 70px;
+    }
+}
+@media (min-width: 576px)and(max-width: 767.99px) {
+    .foot-links li a{
+        padding: 0px !important;
+    }  
+    .footer {
+        padding: 10px !important;
+    } 
+    .icons {
+        height: 20px;
+        width: 20px;
+    }
+}
+@media (max-width: 575.99px){
+
+}
